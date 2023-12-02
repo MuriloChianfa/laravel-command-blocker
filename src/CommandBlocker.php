@@ -51,7 +51,12 @@ final class CommandBlocker
 
         foreach (config('command-blocker.environments.' . $environment) as $command) {
             self::block($command, $triggered);
-            self::hide($command);
+
+            try {
+                self::hide($command);
+            } catch (\Throwable $th) {
+                continue;
+            }
         }
     }
 
