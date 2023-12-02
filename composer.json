@@ -1,0 +1,33 @@
+{
+    "name": "murilochianfa/laravel-command-blocker",
+    "description": "Block selected commands in specific environments",
+    "homepage": "https://github.com/MuriloChianfa/laravel-command-blocker",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MuriloChianfa\\LaravelCommandBlocker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MuriloChianfa",
+            "email": "murilo.chianfa@outlook.com",
+            "homepage": "https://github.com/MuriloChianfa",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/support": "^9.0 | ^10.0 | ^11.0",
+        "illuminate/console": "^9.0 | ^10.0 | ^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MuriloChianfa\\LaravelCommandBlocker\\CommandBlockerServiceProvider"
+            ]
+        }
+    }
+}
