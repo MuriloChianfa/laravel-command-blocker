@@ -143,7 +143,7 @@ During package development, try as best as possible to embrace good design and
 development practices to try to ensure that this package is as good as it can
 be. The checklist for package development includes:
 
--   ✅ Be fully PSR1, PSR2, and PSR4 compliant.
+-   ✅ Be fully PSR4 and PSR12 compliant.
 -   ✅ Include comprehensive documentation in README.md.
 -   ✅ Have no PHPUnit or PHPCS warnings throughout all code.
 -   ✅ Achieve as close to 100% code coverage as possible using unit tests.
