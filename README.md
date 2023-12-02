@@ -145,13 +145,12 @@ be. The checklist for package development includes:
 
 -   ✅ Be fully PSR4 and PSR12 compliant.
 -   ✅ Include comprehensive documentation in README.md.
--   ✅ Have no PHPUnit or PHPCS warnings throughout all code.
--   ✅ Achieve as close to 100% code coverage as possible using unit tests.
+-   ✅ Have no PHPCS warnings throughout all code.
 
 ### Testing
 
 ``` bash
-composer tests
+composer style
 ```
 
 ### Security
